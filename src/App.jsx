@@ -36,7 +36,7 @@ function App() {
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href={`${iconsUrl}#documentation-icon`}</use>
+            <use href={`${iconsUrl}#documentation-icon`}></use>
           </svg>
           <h2>Documentation</h2>
           <p>Your questions, answered</p>
@@ -57,7 +57,7 @@ function App() {
         </div>
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href={`${iconsUrl}#social-icon`}</use>
+            <use href={`${iconsUrl}#social-icon`}></use>
           </svg>
           <h2>Connect with us</h2>
           <p>Join the Vite community</p>
@@ -69,7 +69,7 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href={`${iconsUrl}#github-icon`}</use>
+                  <use href={`${iconsUrl}#github-icon`}></use>
                 </svg>
                 GitHub
               </a>
@@ -81,7 +81,7 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href={`${iconsUrl}#discord-icon`}</use>
+                  <use href={`${iconsUrl}#discord-icon`}></use>
                 </svg>
                 Discord
               </a>
@@ -93,7 +93,7 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href={`${iconsUrl}#x-icon`}</use>
+                  <use href={`${iconsUrl}#x-icon`}></use>
                 </svg>
                 X.com
               </a>
@@ -105,7 +105,7 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href={`${iconsUrl}#bluesky-icon`}</use>
+                  <use href={`${iconsUrl}#bluesky-icon`}></use>
                 </svg>
                 Bluesky
               </a>
