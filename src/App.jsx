@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { UserList } from './UserList.jsx'
 
 const iconsUrl = `${import.meta.env.BASE_URL}icons.svg`
 import reactLogo from './assets/react.svg'
@@ -115,6 +116,9 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+      <section id="users">
+        <UserList />
+      </section>
       <section id="spacer"></section>
     </>
   )
